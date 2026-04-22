@@ -1,25 +1,28 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
         rel="stylesheet">
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NLW Agents</title>
-    <link rel="stylesheet" href="./style.css"/>
+    <link rel="stylesheet" href="./style.css" />
 </head>
+
 <body>
     <header>
-        <img src="./assets/logo.png" alt="Logo esports NLW">
+        <img src="./assets/logo.png" alt="Logo sports NLW">
     </header>
 
-     <main>
+    <main>
         <section>
             <div>
-                <h2>Assistente de Meta</h2>
+                <h2 class="title">Assistente de Meta</h2>
                 <p>Pergunte sobre estratégias, build e dicas para seus jogos!</p>
 
                 <form id="form">
@@ -32,11 +35,11 @@
                         <option value="cs">CS:GO</option>
                     </select>
 
-                    <input type="text" placeholder="Ex: Melhor build para ADC...">
+                    <input id="questionInput" type="text" placeholder="Ex: Melhor build para ADC..." required>
                     <button id="askButton">Perguntar</button>
                 </form>
 
-                <div id="aiResponse">
+                <div id="aiResponse" class="hidden">
                     <div class="response-content">
 
                     </div>
@@ -44,7 +47,7 @@
             </div>
         </section>
     </main>
-        <script src="./script.js"></script>
-
+    <script src="https://unpkg.com/showdown/dist/showdown.min.js"></script>
+    <script src="./script.js"></script>
 </body>
 </html>
