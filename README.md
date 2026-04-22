@@ -1,67 +1,55 @@
-# HTML
-- HypertText
-    - Textos puros, livros, revistas, jornais;
-    - Links: acessar outros documentos;
-    - Imagens, vídeos, áudios;
-- Markup
-    - Marcação
-    - Tags: <a> Link </a>
-    - Atributos: <a href="https://rocketseat.com.br">
-    - Globais: id, class, ...
-- Language
-    - Linguagem
-    - Sintaxe: maneira de escrever
+# 🕹️ Assistente de Games com IA — Projeto NLW Rocketseat
 
-# HTTP
-- HyperText
-- Transfer
-    - Transferência
-- Protocol
-    - Protocolo
-    - Conjunto de regras
+Este projeto foi desenvolvido como parte da trilha de front-end da **Next Level Week (NLW)** da [Rocketseat](https://rocketseat.com.br), com o objetivo de aplicar HTML, CSS e JavaScript em um projeto prático e atual: um assistente de games alimentado por inteligência artificial.
 
-# URL
-- Uniform
-    - Uniforme
-- Resource
-    - Recurso
-- Locator
-    - Localizador
-Encontrar um recurso (html, css, js, pdf, jpg, mp4, mpr, ...)
-Endereço
+🔗 **Acesse o projeto online:**  
+👉 [tiagoszsnt.github.io/nlw-agents](https://tiagoszsnt.github.io/nlw-agents/)
 
-# IP
-- Internet
-  - Rede mundial de computadores
-- Protocol
-  - Conjunto de regras
-Endereço do computador
-rocketseat.com.br (domínio)
-123.32.1.23 (ip)
+---
 
-# DNS
-- Domain
-  - Domínio
-- Name
-  - Nome
-- Server
-  - Servidor
+## 🧠 Sobre o Projeto
 
-# CSS
+O **Assistente de Games** é uma interface web que permite ao usuário inserir uma **API Key do Gemini (Google)** e receber respostas inteligentes com **dicas, estratégias e builds para jogos**, como Valorant, LoL, CS2, entre outros.
 
-- Cascading
-  - Cascata
-  - Regras das escritas
-  - Hierarquia
-  - Especificidade
-- Style
-  - Estilo
-- Sheet
-  - Folha
+---
 
-De um arquivo que terá na sua sintaxe, declarações, propriedades e valores.
-A partir disso, o HTML é impactado visualmente.
+## 🛠️ Tecnologias Utilizadas
 
-- declaração
-- seletor
-- propriedade e valor
+- **HTML5** – estrutura da aplicação
+- **CSS3** – estilização e responsividade
+- **JavaScript (Vanilla)** – lógica e interação com API
+- **Google Gemini API** – motor de inteligência artificial
+- **Git & GitHub** – versionamento e deploy
+- **GitHub Pages** – hospedagem do projeto
+
+---
+
+## 💡 Funcionalidades
+
+- Inserção segura da API Key do Gemini
+- Seleção de jogos populares
+- Envio de perguntas e retorno com respostas da IA
+- Design moderno, inspirado em eSports
+- Layout responsivo para dispositivos móveis
+
+---
+
+## 🔐 Requisitos
+
+Você precisa de uma API Key válida do Gemini:
+
+Crie sua chave em: https://aistudio.google.com/app/apikey
+
+Copie e cole no campo indicado na interface
+
+---
+
+## 📌 Observações
+
+- Este projeto é educacional e não armazena nenhuma chave de API.
+
+- A comunicação com a IA é feita diretamente no navegador.
+
+- Código limpo e comentado para aprendizado.
+
+---
